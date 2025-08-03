@@ -11,7 +11,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,500;1,500&display=swap"
+        rel="stylesheet">
 
 </head>
 
@@ -47,7 +49,8 @@
                     <span></span>
                 </a>
 
-                <div class="text-white font-inter text-[0.9rem] font-[500] border-2 border-primary bg-transparent px-7 py-2 hover:bg-primary transition-all duration-[500ms] cursor-pointer">
+                <div
+                    class="text-white font-inter text-[0.9rem] font-[500] border-2 border-primary bg-transparent px-7 py-2 hover:bg-primary transition-all duration-[500ms] cursor-pointer">
                     <a href="">Login</a>
                 </div>
 
@@ -61,6 +64,31 @@
         </nav>
     </header>
 
+    <main>
+        <section class="h-[50vh]">
+            <div class="flex items-center justify-center text-center w-full h-full px-8">
+                <div class="font-inter flex flex-col gap-9">
+                    <section class="text-inter">
+                        <h1 class="text-white text-5xl font-bold mb-2">
+                            Scripts Profissionais para
+                            <span class="text-primary_light">Desenvolvedores</span>
+                        </h1>
+                        <p class="text-[1rem] font-light text-light">
+                            Descubra nossa coleção de scripts premium, ferramentas e soluções para acelerar seu
+                            desenvolvimento
+                        </p>
+                    </section>
+                    
+                    <section class="flex w-full items-center justify-center gap-7">
+                        <button class="explore_products">Explorar produtos</button>
+                        <button class="view-more">Saiba mais</button>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
 
     <script>
         tailwind.config = {
@@ -69,7 +97,9 @@
                     colors: {
                         body: '#111827',
                         nav: '#1F2937',
+                        light: '#D1D5DB',
                         primary: '#631BFF',
+                        primary_light: '#9478FF',
                         brand: '#ff6600',
                     },
                     fontFamily: {
